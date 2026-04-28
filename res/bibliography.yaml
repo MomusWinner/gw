@@ -36,6 +36,26 @@ shaderc:
     url: https://github.com/google/shaderc
     date: 2026-04-26
 
+glsl-spec:
+    type: reference
+    title: "The OpenGL® Shading Language"
+    version: "4.60.8"
+    url: https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.60.pdf
+    author: ["Kessenich, John", "Baldwin, Dave", "Rost, Randi"]
+    editor: Leese, Graeme
+    page-total: 240
+    date: 2023-08-14
+    publisher:
+        name: The Khronos Group
+        location: Beaverton, OR 97008 United States
+
+vk-tutorial-compute-shader:
+    type: Web
+    title: Compute Shader
+    author: Sascha Willems
+    url: https://vulkan-tutorial.com/Compute_Shader
+    date: 2026-04-26
+
 sav:
     type: Web
     title: Svace analysis visualizer

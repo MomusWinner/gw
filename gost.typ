@@ -166,9 +166,13 @@
 
 #let gost-text-p(heading, body) = {
   [#heading]
-  v(1em)
-  [#body]
-  v(1em)
+  if body != [] and body != "" {
+    v(1em)
+    [#body]
+    v(1em)
+  } else {
+    v(1em)
+  }
 }
 
 #let gost-list(..args) = {
@@ -178,6 +182,18 @@
       [- #item\.]
     } else {
       [- #item\;]
+    }
+  }
+  v(0.5em)
+}
+
+#let gost-n-list(..args) = {
+  let items = args.pos()
+  for (i, item) in items.enumerate() {
+    if i == items.len() - 1 {
+      [+ #item\.]
+    } else {
+      [+ #item\;]
     }
   }
   v(0.5em)
