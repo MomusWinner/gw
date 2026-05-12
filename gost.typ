@@ -198,3 +198,13 @@
   }
   v(0.5em)
 }
+
+#let gost-table(columns: array, header: array, ..data) = {
+  table(
+    inset: (x, y) => if y == 0 { 15pt } else { (x: 5pt, y: 15pt) },
+    align: (x, y) => if y == 0 { center } else { left + top },
+    columns: columns,
+    table.header(..header),
+    ..data,
+  )
+}

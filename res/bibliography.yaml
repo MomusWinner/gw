@@ -56,6 +56,13 @@ vk-tutorial-compute-shader:
     url: https://vulkan-tutorial.com/Compute_Shader
     date: 2026-04-26
 
+vk-formats:
+    type: Web
+    title: Formats
+    author: The Khronos Group
+    url: https://docs.vulkan.org/spec/latest/chapters/formats.html
+    date: 2026-04-26
+
 sav:
     type: Web
     title: Svace analysis visualizer
