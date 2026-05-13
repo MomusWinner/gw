@@ -67,6 +67,14 @@ sav:
     type: Web
     title: Svace analysis visualizer
     serial-number: v0.0.1
-    author: Крдян А.А.
+    author: А. А. Крдян 
     url: https://github.com/MomusWinner/sav
+    date: 2026-04-26
+
+crude-food:
+    type: Web
+    title: Crude Food
+    serial-number: v0.0.1
+    author: ["А. А. Крдян", "Т. А. Кристьев", "М. Ю. Озорнин", "М. П. Носков"]
+    url: https://aregkr.itch.io/crude-food
     date: 2026-04-26
