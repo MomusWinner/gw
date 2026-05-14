@@ -49,6 +49,12 @@ glsl-spec:
         name: The Khronos Group
         location: Beaverton, OR 97008 United States
 
+web-gl-camera:
+    type: Web
+    title: Perspective Projections
+    url: https://learnwebgl.brown37.net/08_projections/projections_perspective.html
+    date: 2026-04-26
+
 vk-tutorial-compute-shader:
     type: Web
     title: Compute Shader
@@ -78,3 +84,5 @@ crude-food:
     author: ["А. А. Крдян", "Т. А. Кристьев", "М. Ю. Озорнин", "М. П. Носков"]
     url: https://aregkr.itch.io/crude-food
     date: 2026-04-26
+
+
