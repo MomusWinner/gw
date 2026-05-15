@@ -1,88 +1,106 @@
 ve:
     type: Web
     title: Vulkan Rendering Engine
-    serial-number: v0.0.1
+    # serial-number: v0.0.1
     author: Крдян А.А.
-    url: https://github.com/MomusWinner/ve
-    date: 2026-04-26
+    url:
+      value: https://github.com/MomusWinner/ve
+      date: 2026-04-26
+    date: 2026
 
 vulkan:
     type: Web
     title: Vulkan
-    url: https://www.vulkan.org/
-    date: 2026-04-26
+    url:
+      value: https://www.vulkan.org/
+      date: 2026-04-26
 
 odin:
     type: Web
     title: Odin
-    url: https://odin-lang.org/
-    date: 2026-04-26
+    url:
+      value: https://odin-lang.org/
+      date: 2026-04-26
 
 glfw:
     type: Web
     title: GLFW
-    url: https://www.glfw.org/
-    date: 2026-04-26
+    url:
+      value: https://www.glfw.org/
+      date: 2026-04-26
 
 vma:
     type: Web
     title: VMA
-    url: https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/
-    date: 2026-04-26
+    url:
+      value: https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/
+      date: 2026-04-26
 
 shaderc:
     type: Web
     title: shaderc
-    url: https://github.com/google/shaderc
-    date: 2026-04-26
+    url:
+      value: https://github.com/google/shaderc
+      date: 2026-04-26
 
 glsl-spec:
-    type: reference
+    type: Web
     title: "The OpenGL® Shading Language"
-    version: "4.60.8"
-    url: https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.60.pdf
     author: ["Kessenich, John", "Baldwin, Dave", "Rost, Randi"]
-    editor: Leese, Graeme
-    page-total: 240
-    date: 2023-08-14
-    publisher:
-        name: The Khronos Group
-        location: Beaverton, OR 97008 United States
+    url:
+      value: https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.60.pdf
+      date: 2026-04-26
+    date: 2023
+    location: Beaverton
+    # type: reference
+    # version: "4.60.8"
+    # editor: Leese, Graeme
+    # page-total: 240
+    # publisher:
+    #     name: The Khronos Group
+    #     location: Beaverton, OR 97008 United States
 
 web-gl-camera:
     type: Web
     title: Perspective Projections
-    url: https://learnwebgl.brown37.net/08_projections/projections_perspective.html
-    date: 2026-04-26
+    url:
+      value: https://learnwebgl.brown37.net/08_projections/projections_perspective.html
+      date: 2026-05-14
 
 vk-tutorial-compute-shader:
     type: Web
     title: Compute Shader
     author: Sascha Willems
-    url: https://vulkan-tutorial.com/Compute_Shader
-    date: 2026-04-26
+    url:
+      value: https://vulkan-tutorial.com/Compute_Shader
+      date: 2026-05-14
 
 vk-formats:
     type: Web
     title: Formats
     author: The Khronos Group
-    url: https://docs.vulkan.org/spec/latest/chapters/formats.html
-    date: 2026-04-26
+    url:
+      value: https://docs.vulkan.org/spec/latest/chapters/formats.html
+      date: 2026-05-14
 
 sav:
     type: Web
     title: Svace analysis visualizer
-    serial-number: v0.0.1
+    # serial-number: v0.0.1
     author: А. А. Крдян 
-    url: https://github.com/MomusWinner/sav
-    date: 2026-04-26
+    url:
+      value: https://github.com/MomusWinner/ve
+      date: 2026-04-26
+    date: 2026
 
 crude-food:
     type: Web
     title: Crude Food
-    serial-number: v0.0.1
+    # serial-number: v0.0.1
     author: ["А. А. Крдян", "Т. А. Кристьев", "М. Ю. Озорнин", "М. П. Носков"]
-    url: https://aregkr.itch.io/crude-food
-    date: 2026-04-26
+    url:
+      value: https://aregkr.itch.io/crude-food
+      date: 2026-04-26
+    date: 2026
 
 

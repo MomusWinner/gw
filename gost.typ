@@ -166,13 +166,7 @@
 
 #let gost-text-p(heading, body) = {
   [#heading]
-  if body != [] and body != "" {
-    v(1em)
-    [#body]
-    v(1em)
-  } else {
-    v(1em)
-  }
+  [#body]
 }
 
 #let gost-list(..args) = {
